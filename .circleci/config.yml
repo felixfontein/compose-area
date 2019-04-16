@@ -268,7 +268,7 @@ jobs:
 
   test-integration-safari:
     macos:
-      xcode: "10.1.0"
+      xcode: "10.2.0"
     steps: *steps-integrationtests
     environment:
       BROWSER: safari
